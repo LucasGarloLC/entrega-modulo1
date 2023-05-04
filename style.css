@@ -43,14 +43,13 @@
     justify-content: space-between; 
 }
 
-.title {
+h1 {
     padding-left: 32px;
-    width: 1280px;
 }
 
 .product_grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
     padding-bottom: 16px;
     justify-content: center;
 }
