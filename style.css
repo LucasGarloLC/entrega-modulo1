@@ -42,7 +42,6 @@
     justify-content: space-between; 
 }
 
-
 h1 {
     padding-left: 32px;
 }
@@ -71,36 +70,24 @@ h1 {
 }
 
 .bottombar {
-    background-color: #212429;
-    color: var(--white);
     display: flex;
     justify-content: space-between;
+    background-color: #212429;
+    color: var(--white);
     padding: 32px;
 }
 
-.footerimg {
-    display: flex;
-    border-radius: 50%;
-}
-
-.icon {
+.bottombar img {
+    border: 8px solid;
     background-color: var(--white);
-    border-radius: 50%;
-    padding: 8px;
+    border-radius: 41%;
 }
 
-.bottoninfo {
-    padding-top: 16px;
-    padding-left: 16px;
+.infofooter {
+    display:flex;
+    align-items: center;
 }
 
-/*
-media query es para poner estilos hasta un max-width o min-width de x píxeles:
-https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
-*/
-@media (max-width:800px){ 
-    main > .product_grid{
-        display: grid;
-        grid-template-columns: 1fr;
-    } 
+.infofooter span {
+    padding-left: 8px;
 }
