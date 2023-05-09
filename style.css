@@ -8,7 +8,6 @@
 .sticky {
     position: sticky;
     top: 0;
-    left: 0;
     background-color: var(--white);
 }
 
@@ -43,24 +42,25 @@
     justify-content: space-between; 
 }
 
+
 h1 {
     padding-left: 32px;
 }
 
 .product_grid{
-    display: grid;
-    grid-template-columns: 0fr 0fr 0fr;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
     padding-bottom: 16px;
     justify-content: center;
 }
 
-.product_image_1 img {
-    border-radius:4%
-}
-
 .article{
     padding: 32px;
-    padding-bottom: 32px;
+}
+
+.article img {
+    border-radius: 4%;
 }
 
 .information {
